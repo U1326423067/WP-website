@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../sju-log.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h5 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.sub {
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    text-align: right;
+    line-height: normal;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.last {
+    font-size: 18px;
+}
